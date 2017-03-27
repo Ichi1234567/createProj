@@ -1,0 +1,16 @@
+{
+  "name": "createProj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "createProj": "bin/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.0",
+    "fibers": "^1.0.0",
+    "fs-extra": "^2.0.0",
+    "minimist": "^1.2.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"parser": "babel-eslint",
+	"extends": ["airbnb"],
+  "globals": {
+    "document": false,
+  },
+  "rules": {
+    "no-new": 0,
+    "no-underscore-dangle": ["warn", { "allowAfterThis": true }],
+    "no-unused-expressions": ["error", { "allowShortCircuit": true, "allowTernary": true }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+  },
+  "plugins": [
+    "react"
+  ],
+  "settings": {
+    "import/resolver": {
+      webpack: {
+        config: "examples/webpack.config.js"
+      }
+    }
+  }
+}
